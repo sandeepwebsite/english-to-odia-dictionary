@@ -32,6 +32,9 @@ h3{
   color: white;
   width: 100%;
 }
+a{
+  text-decoration: none;
+}
 #c-link{
   display: none;
 }
@@ -105,7 +108,25 @@ main{
   text-decoration: blink;
 }
 
-
+.dwld-btn{
+  width: 50%;
+  margin: auto;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.dwld-btn button{
+  padding: 8px;
+  font-size: 15px;
+  background: #05386b;
+  border: none;
+  color: white;
+  position: relative;
+  left: 30%;
+  border-radius: 8px;
+}
+.dwld-btn a{
+  color: #dcdcdc;
+}
 .card{
   width: 90%;
   padding: 10px;
