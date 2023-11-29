@@ -6,21 +6,12 @@
 }
 body{
   font-family: Verdana, sans-serif;
-/*  background-image: url("bg6.jpg");*/
-  background-position: center;
+ background-image: url("images/bg.webp");
+  /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden;
+  overflow-x: hidden; */
 /*  background: #E2D4C7;*/
-background: hsla(139, 70%, 75%, 1);
-
-background: linear-gradient(270deg, hsla(139, 70%, 75%, 1) 0%, hsla(63, 90%, 76%, 1) 100%);
-
-background: -moz-linear-gradient(270deg, hsla(139, 70%, 75%, 1) 0%, hsla(63, 90%, 76%, 1) 100%);
-
-background: -webkit-linear-gradient(270deg, hsla(139, 70%, 75%, 1) 0%, hsla(63, 90%, 76%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#95ECB0", endColorstr="#F3F98A", GradientType=1 );
 }
 h1{
   text-align: center;
@@ -42,7 +33,7 @@ header{
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  background: #00cc99;
+  background: #b575bb;
   height: 60px;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -91,7 +82,7 @@ main{
 }
 .flex-item-right li{
   width: 100%;
-  background: #00cc99;
+  background: #b575bb;
   margin-bottom: 5px;
   padding: 5px;
   color: black;
@@ -113,6 +104,7 @@ main{
   margin: auto;
   font-weight: 700;
   margin-bottom: 10px;
+  text-align: center;
 }
 .dwld-btn button{
   padding: 8px;
@@ -120,8 +112,6 @@ main{
   background: #05386b;
   border: none;
   color: white;
-  position: relative;
-  left: 30%;
   border-radius: 8px;
 }
 .dwld-btn a{
@@ -359,9 +349,9 @@ main{
     height: 50px;
     width: 50px
   }
-  .extra-sec-col h4{
+  /* .extra-sec-col h4{
     display: none;
-  }
+  } */
   #pop-up #forhistory, #pop-up #forfav{
     width: 100%;
   }
@@ -760,6 +750,9 @@ main{
   }
   .d-col li{
     margin-top: 5px;
+  }
+  .row-head h2{
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 999px) and (min-width: 601px) {
